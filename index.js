@@ -29,7 +29,7 @@ function deleteFromObjectByKey(obj, key){
   return obj  
 }
 
-function updateObjectWithKeyAndValue(obj, key, val) {
+function updateObjectWithKeyAndValue(obj, key, value) {
   var object = Object.assign({}, obj)
   object[key]=value
   return object
