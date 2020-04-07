@@ -1,6 +1,7 @@
 var recipes = {};
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
+  console.log('value: ', val)
   obj[key] = value
   return obj
 }
